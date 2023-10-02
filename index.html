@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fonts</title>
+    <style>
+      @font-face {
+        font-family: "TT_Interphases_Pro_Trial";
+        src: url("./fonts/TT_Interphases_Pro_Trial_Bold.ttf") format("truetype");
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: "TT_Interphases_Pro_Trial";
+        src: url("./fonts/TT_Interphases_Pro_Trial_Bold_Italic.ttf") format("truetype");
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: "TT_Interphases_Pro_Trial";
+        src: url("./fonts/TT_Interphases_Pro_Trial_DemiBold.ttf") format("truetype");
+        font-style: normal;
+        font-weight: 600;
+      }
+
+      @font-face {
+        font-family: "TT_Interphases_Pro_Trial";
+        src: url("./fonts/TT_Interphases_Pro_Trial_DemiBold_Italic.ttf") format("truetype");
+        font-style: italic;
+        font-weight: 600;
+      }
+
+      @font-face {
+        font-family: "TT_Interphases_Pro_Trial";
+        src: url("./fonts/TT_Interphases_Pro_Trial_Medium.ttf") format("truetype");
+        font-style: normal;
+        font-weight: 500;
+      }
+
+      @font-face {
+        font-family: "TT_Interphases_Pro_Trial";
+        src: url("./fonts/TT_Interphases_Pro_Trial_Medium_Italic.ttf") format("truetype");
+        font-style: italic;
+        font-weight: 500;
+      }
+
+      @font-face {
+        font-family: "TT_Interphases_Pro_Trial";
+        src: url("./fonts/TT_Interphases_Pro_Trial_Italic.ttf") format("truetype");
+        font-style: italic;
+        font-weight: 400;
+      }
+
+      @font-face {
+        font-family: "TT_Interphases_Pro_Trial";
+        src: url("./fonts/TT_Interphases_Pro_Trial_Regular.ttf") format("truetype");
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .text {
+        font-family: "TT_Interphases_Pro_Trial";
+        height: 48px;
+        display: flex;
+        align-items: center;
+      }
+
+      .fw_700 {
+        font-weight: 700;
+      }
+      .fw_600 {
+        font-weight: 600;
+      }
+      .fw_500 {
+        font-weight: 500;
+      }
+      .fw_400 {
+        font-weight: 400;
+      }
+
+      .fz_44 {
+        font-size: 44px;
+      }
+      .fz_40 {
+        font-size: 40px;
+      }
+      .fz_32 {
+        font-size: 32px;
+      }
+      .fz_28 {
+        font-size: 28px;
+      }
+      .fz_26 {
+        font-size: 26px;
+      }
+      .fz_24 {
+        font-size: 24px;
+      }
+      .fz_20 {
+        font-size: 20px;
+      }
+      .fz_19 {
+        font-size: 19px;
+      }
+      .fz_18 {
+        font-size: 18px;
+      }
+      .fz_17 {
+        font-size: 17px;
+      }
+      .fz_15 {
+        font-size: 15px;
+      }
+      .fz_14 {
+        font-size: 14px;
+      }
+      .fz_13 {
+        font-size: 13px;
+      }
+      .fz_12 {
+        font-size: 12px;
+      }
+
+      .ls_4 {
+        letter-spacing: 0.4px;
+      }
+      .ls_3 {
+        letter-spacing: 0.3px;
+      }
+      .ls_2 {
+        letter-spacing: 0.2px;
+      }
+
+      .wrapper {
+        padding: 80px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+      }
+
+      .col {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 460px;
+      }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="col">
+            <div class="text fw_700 fz_44 ls_4">Display 1</div>
+            <div class="text fw_700 fz_40 ls_3">Display 2</div>
+            <div class="text fw_700 fz_32 ls_2">Display 3</div>
+
+            <div class="text fw_600 fz_28 ls_2">Header 1</div>
+            <div class="text fw_600 fz_24 ls_2">Header 2</div>
+            <div class="text fw_600 fz_20 ls_2">Header 3</div>
+
+            <div class="text fw_400 fz_19 ls_3">Title</div>
+            <div class="text fw_600 fz_19 ls_3">Title Bold</div>
+
+            <div class="text fw_400 fz_17 ls_2">Paragraph</div>
+            <div class="text fw_600 fz_17 ls_3">Paragraph Bold</div>
+
+            <div class="text fw_400 fz_14 ls_2">Description</div>
+            <div class="text fw_600 fz_14 ls_2">Description Bold</div>
+
+            <div class="text fw_400 fz_12 ls_2">Caption</div>
+        </div>
+        <div class="col">
+            <div class="text fw_700 fz_32 ls_4">Display 1</div>
+            <div class="text fw_700 fz_28 ls_3">Display 2</div>
+            <div class="text fw_700 fz_26 ls_2">Display 3</div>
+
+            <div class="text fw_600 fz_24 ls_2">Header 1</div>
+            <div class="text fw_600 fz_20 ls_2">Header 2</div>
+            <div class="text fw_600 fz_18 ls_2">Header 3</div>
+
+            <div class="text fw_400 fz_17 ls_3">Title</div>
+            <div class="text fw_600 fz_17 ls_3">Title Bold</div>
+
+            <div class="text fw_400 fz_15 ls_2">Paragraph</div>
+            <div class="text fw_500 fz_15 ls_3">Paragraph Bold</div>
+
+            <div class="text fw_400 fz_13 ls_2">Description</div>
+            <div class="text fw_600 fz_13 ls_2">Description Bold</div>
+
+            <div class="text fw_400 fz_12 ls_2">Caption</div>
+        </div>
+    </div>
+</body>
+</html>
